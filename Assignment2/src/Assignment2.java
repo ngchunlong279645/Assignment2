@@ -86,7 +86,7 @@ double total,output,price1,price2=0,price3 = 0,quantity1,quantity2=0,quantity3=0
 	    System.out.println();
 	      
 		
-		 System.out.print("Do You Want A Bag ? (Y)=yes (N)=no: ");
+		 System.out.println("Do You Want A Bag ? (Y)=yes (N)=no: ");
 	      char bag = scan.next().charAt(0);
 	      
 	      if((bag == 'Y') ||(bag == 'y')|| (bag == 'N')|| (bag == 'n')){
@@ -114,7 +114,7 @@ double total,output,price1,price2=0,price3 = 0,quantity1,quantity2=0,quantity3=0
 	      }else  {
 	    	  System.out.println("Invalid Input Please try again! !");
 	      }
-	      System.out.println("Do You Want To Continue ?(Y)=yes (N)=no: ");
+	      System.out.println("  Do You Want To Continue ?(Y)=yes (N)=no: ");
 			next = scan.next().charAt(0);
 	}while(next=='y' || next=='Y');
 		
