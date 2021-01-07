@@ -97,11 +97,13 @@ double total,output,price1,price2=0,price3 = 0,quantity1,quantity2=0,quantity3=0
 	            if((type == '1') || (type == '2')){
 	               if(type == '1'){
 	            	   output = output + 0.10;
-	               System.out.printf("Total cash payment: RM%.2f",output);}
+	               System.out.printf("Total cash payment: RM%.2f",output);
+	               System.out.println("  THANK YOU AND PLEASE COME AGAIN!");
+	               }
 	               else {
 	            	   output = output + 0.15;
 	               System.out.printf("Total cash payment: RM%.2f",output);
-	            System.out.println("THANK YOU AND PLEASE COME AGAIN!");
+	            System.out.println("  THANK YOU AND PLEASE COME AGAIN!");
 	               }
 	            }
 	            else
@@ -109,7 +111,7 @@ double total,output,price1,price2=0,price3 = 0,quantity1,quantity2=0,quantity3=0
 	         }
 	         else{
 	        	 System.out.printf("Total cash payment: RM%.2f",output);
-		            System.out.println("\n\nTHANK YOU NO PLASTIC BAG IS GOOD FOR NATURE!");
+		            System.out.println("  THANK YOU NO PLASTIC BAG IS GOOD FOR NATURE!");
 	         }
 	      }else  {
 	    	  System.out.println("Invalid Input Please try again! !");
